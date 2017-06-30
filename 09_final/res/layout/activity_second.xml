@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtURL"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:hint="input url here" />
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="Go" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/wwwYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="write http://www."/>
+        <RadioButton
+            android:id="@+id/wwwNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="don't write http://www."/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/userUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="url"/>
+        <RadioButton
+            android:id="@+id/com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=".com"/>
+        <RadioButton
+            android:id="@+id/org"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=".org"/>
+    </RadioGroup>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/webView"
+        android:layout_weight="9" />
+</LinearLayout>
