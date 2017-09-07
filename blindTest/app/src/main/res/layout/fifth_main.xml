@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="#f8fdf9"
+                android:background="#1478FF"
+                android:text="Step 5" />
+            <Button
+                android:id="@+id/gobackBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="첫 화면으로"
+                android:onClick="gobackClick"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="무지개 그림을 고르세요."
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/fifthTest"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <RadioButton
+            android:text="1번째"
+            android:id="@+id/num1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/rainbow1"
+            android:drawablePadding="20dp"/>
+        <RadioButton
+            android:text="2번째"
+            android:id="@+id/num2"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/rainbow2"
+            android:drawablePadding="20dp"/>
+        <RadioButton
+            android:text="3번째"
+            android:id="@+id/num3"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/rainbow3"
+            android:drawablePadding="20dp"/>
+        <RadioButton
+            android:text="4번째"
+            android:id="@+id/num4"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/rainbow4"
+            android:drawablePadding="20dp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="결과보기"
+            android:onClick="resultClick"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">blindTest</string>
+    <string name="normal">당신은 정상입니다.</string>
+    <string name="wrong">선택을 잘못하였습니다. 다시 선택해주세요.</string>
+
+    <string name="redgreen_yak">적녹색약입니다.</string>
+    <array name="redgreen_yak_rgb">
+        <item>255</item>
+        <item>0</item>
+        <item>0</item>
+    </array>
+
+    <string name="redgreen_meng">당신은 적녹색맹입니다.</string>
+    <array name="redgreen_meng_rgb">
+        <item>0</item>
+        <item>204</item>
+        <item>0</item>
+    </array>
+
+    <string name="yak">당신은 전색약입니다.</string>
+    <array name="yak_rgb">
+        <item>102</item>
+        <item>0</item>
+        <item>204</item>
+    </array>
+
+    <string name="meng">당신은 전색맹입니다.</string>
+    <array name="meng_rgb">
+        <item>255</item>
+        <item>255</item>
+        <item>0</item>
+    </array>
+
+    <string name="redblue_meng">당신은 황청색맹입니다.</string>
+    <array name="redblue_meng_rgb">
+        <item>153</item>
+        <item>0</item>
+        <item>76</item>
+    </array>
+
+    <string name="green_meng">당신은 녹색맹입니다.</string>
+    <array name="green_meng_rgb">
+        <item>0</item>
+        <item>102</item>
+        <item>51</item>
+    </array>
+
+    <string name="red_meng">당신은 적색맹입니다.</string>
+    <array name="red_meng_rgb">
+        <item>255</item>
+        <item>204</item>
+        <item>255</item>
+    </array>
+
+    <string name="blue_meng">당신은 청색맹입니다.</string>
+    <array name="blue_meng_rgb">
+        <item>160</item>
+        <item>160</item>
+        <item>160</item>
+    </array>
+</resources>
